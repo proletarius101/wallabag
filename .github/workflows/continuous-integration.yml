@@ -10,6 +10,7 @@ on:
 env:
   PGPASSWORD: wallabagrocks
   COMPOSER_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  TZ: Europe/Paris
 
 jobs:
   phpunit:
